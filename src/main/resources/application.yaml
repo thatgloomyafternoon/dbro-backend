@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: dbro-backend
+  profiles:
+    active: local
+  jpa:
+    open-in-view: false
+    database-platform: org.hibernate.dialect.PostgreSQL95Dialect
+  servlet:
+    multipart:
+      max-file-size: 5MB
+      max-request-size: 5MB
+
+server:
+  port: 8080
