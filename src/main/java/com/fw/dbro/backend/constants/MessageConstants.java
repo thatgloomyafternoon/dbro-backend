@@ -1,0 +1,135 @@
+package com.fw.dbro.backend.constants;
+
+public class MessageConstants {
+
+  /**
+   * validation messages
+   */
+  public static final String CREATED_BY_NOT_NULL_MESSAGE = "Created by must not be null";
+  public static final String CREATED_BY_NOT_BLANK_MESSAGE = "Created by must not be blank";
+  public static final String USER_AUTH_NOT_NULL_MESSAGE = "UserAuth must not be null";
+  public static final String USER_AUTH_ID_NOT_NULL_MESSAGE = "UserAuth ID must not be null";
+  public static final String USER_INFO_NOT_NULL_MESSAGE = "UserInfo must not be null";
+  public static final String EMAIL_NOT_NULL_MESSAGE = "Email must not be null";
+  public static final String EMAIL_NOT_BLANK_MESSAGE = "Email must not be blank";
+  public static final String EMAIL_TOO_SHORT_OR_TOO_LONG_MESSAGE = "Email is either too short or too long";
+  public static final String PASSWORD_NOT_NULL_MESSAGE = "Password must not be null";
+  public static final String PASSWORD_NOT_BLANK_MESSAGE = "Password must not be blank";
+  public static final String PASSWORD_TOO_SHORT_OR_TOO_LONG_MESSAGE = "Password either too short or too long";
+  public static final String SYSCONFIG_TYPE_NAME_NOT_NULL_MESSAGE = "SysconfigType name must not be null";
+  public static final String SYSCONFIG_TYPE_NAME_NOT_BLANK_MESSAGE = "SysconfigType name must not be blank";
+  public static final String SYSCONFIG_TYPE_NAME_TOO_SHORT_OR_TOO_LONG_MESSAGE = "SysconfigType name is either too short or too long";
+  public static final String NAME_NOT_NULL_MESSAGE = "Name must not be null";
+  public static final String NAME_NOT_BLANK_MESSAGE = "Name must not be blank";
+  public static final String NAME_TOO_SHORT_OR_TOO_LONG_MESSAGE = "Name is either too short or too long";
+  public static final String ID_NOT_NULL_MESSAGE = "ID must not be null";
+  public static final String SYSCONFIG_KEY_NOT_NULL_MESSAGE = "Sysconfig key must not be null";
+  public static final String SYSCONFIG_KEY_NOT_BLANK_MESSAGE = "Sysconfig key must not be blank";
+  public static final String SYSCONFIG_KEY_NOT_EXCEEDS_MAX_MESSAGE = "Sysconfig key must not exceed ";
+  public static final String SYSCONFIG_VALUE_NOT_NULL_MESSAGE = "Sysconfig value must not be null";
+  public static final String SYSCONFIG_VALUE_NOT_BLANK_MESSAGE = "Sysconfig value must not be blank";
+  public static final String SYSCONFIG_VALUE_NOT_EXCEEDS_MAX_MESSAGE = "Sysconfig value must not exceed ";
+  public static final String ROLE_NOT_NULL_MESSAGE = "Role must not be null";
+  public static final String API_PATH_NOT_NULL_MESSAGE = "API path must not be null";
+  public static final String API_PATH_ID_LIST_NOT_NULL_MESSAGE = "API path ID list must not be null";
+  public static final String PERMISSION_ID_NOT_NULL_MESSAGE = "Permission ID must not be null";
+  public static final String JWT_MUST_NOT_EXCEEDS_MAX_MESSAGE = "JWT must not exceed ";
+  public static final String DIVISION_NOT_NULL_MESSAGE = "Division must not be null";
+  public static final String ROOT_FLAG_NOT_NULL_MESSAGE = "Root flag must not be null";
+  public static final String DIVISION_ID_NOT_NULL_MESSAGE = "Division ID must not be null";
+  public static final String DIVISION_USER_AUTH_NOT_NULL_MESSAGE = "Division User Auth must not be null";
+  public static final String EXPIRED_DATE_NOT_NULL_MESSAGE = "Expired date must not be null";
+  public static final String RELATION_NOT_NULL_MESSAGE = "Relation must not be null";
+  public static final String JOIN_DATE_NOT_NULL_MESSAGE = "Join date must not be null";
+  public static final String NIK_TOO_SHORT_OR_TOO_LONG_MESSAGE = "NIK is either too short or too long";
+  public static final String NIK_NOT_NULL_MESSAGE = "NIK must not be null";
+  public static final String NIK_NOT_BLANK_MESSAGE = "NIK must not be blank";
+  public static final String EMPLOYMENT_STATUS_NOT_NULL_MESSAGE = "Employment status must not be null";
+  public static final String BIRTH_PLACE_TOO_SHORT_OR_TOO_LONG_MESSAGE = "Birth place is either too short or too long";
+  public static final String BIRTH_PLACE_NOT_NULL_MESSAGE = "Birth place must not be null";
+  public static final String BIRTH_PLACE_NOT_BLANK_MESSAGE = "Birth place must not be blank";
+  public static final String BIRTH_DATE_NOT_NULL_MESSAGE = "Birth date must not be null";
+  public static final String GENDER_NOT_NULL_MESSAGE = "Gender must not be null";
+  public static final String RELIGION_NOT_NULL_MESSAGE = "Religion must not be null";
+  public static final String MARRITAL_STATUS_NOT_NULL_MESSAGE = "Marrital status must not be null";
+  public static final String BLOOD_TYPE_NOT_NULL_MESSAGE = "Blood type must not be null";
+  public static final String KTP_TOO_SHORT_OR_TOO_LONG_MESSAGE = "KTP is either too short or too long";
+  public static final String KTP_NOT_NULL_MESSAGE = "KTP must not be null";
+  public static final String KTP_NOT_BLANK_MESSAGE = "KTP must not be blank";
+  public static final String NPWP_TOO_SHORT_OR_TOO_LONG_MESSAGE = "NPWP is either too short or too long";
+  public static final String NPWP_NOT_NULL_MESSAGE = "NPWP must not be null";
+  public static final String NPWP_NOT_BLANK_MESSAGE = "NPWP must not be blank";
+  public static final String PHONE_TOO_SHORT_OR_TOO_LONG_MESSAGE = "Phone is either too short or too long";
+  public static final String PHONE_NOT_NULL_MESSAGE = "Phone must not be null";
+  public static final String PHONE_NOT_BLANK_MESSAGE = "Phone must not be blank";
+  public static final String ADDRESS_TOO_SHORT_OR_TOO_LONG_MESSAGE = "Address is either too short or too long";
+  public static final String ADDRESS_NOT_NULL_MESSAGE = "Address must not be null";
+  public static final String ADDRESS_NOT_BLANK_MESSAGE = "Address must not be blank";
+  public static final String LAST_EDUCATION_NOT_NULL_MESSAGE = "Last education must not be null";
+  public static final String BSI_ACCOUNT_TOO_SHORT_OR_TOO_LONG_MESSAGE = "BSI account is either too short or too long";
+  public static final String BSI_ACCOUNT_NOT_NULL_MESSAGE = "BSI account must not be null";
+  public static final String BSI_ACCOUNT_NOT_BLANK_MESSAGE = "BSI account must not be blank";
+  public static final String BPJS_TOO_SHORT_OR_TOO_LONG_MESSAGE = "BPJS is either too short or too long";
+  public static final String BPJS_NOT_NULL_MESSAGE = "BPJS must not be null";
+  public static final String BPJS_NOT_BLANK_MESSAGE = "BPJS must not be blank";
+  public static final String USER_REGISTRATION_ID_NOT_NULL_MESSAGE = "User registration ID must not be null";
+  public static final String CLOCK_TYPE_NOT_NULL_MESSAGE = "Clock type must not be null";
+  public static final String ATTENDANCE_NOT_NULL_MESSAGE = "Attendance must not be null";
+  public static final String GAJI_POKOK_NOT_NULL_MESSAGE = "Gaji pokok must not be null";
+  public static final String UANG_MAKAN_NOT_NULL_MESSAGE = "Uang makan must not be null";
+  public static final String POTONGAN_LAIN_LAIN_NOT_NULL_MESSAGE = "Potongan lain-lain must not be null";
+  public static final String GAJI_POKOK_NOT_NEGATIVE_MESSAGE = "Gaji pokok must not be negative";
+  public static final String UANG_MAKAN_NOT_NEGATIVE_MESSAGE = "Uang makan must not be negative";
+  public static final String POTONGAN_LAIN_LAIN_NOT_NEGATIVE_MESSAGE = "Potongan lain-lain must not be negative";
+  public static final String OUTLET_FLAG_NOT_NULL_MESSAGE = "Outlet flag must not be null";
+  public static final String JUMLAH_BONUS_HARIAN_NOT_NULL_MESSAGE = "Jumlah bonus harian must not be null";
+  public static final String JUMLAH_BONUS_HARIAN_NOT_NEGATIVE_MESSAGE = "Jumlah bonus harian must not be negative";
+  public static final String JUMLAH_BONUS_KAWAKA_NOT_NULL_MESSAGE = "Jumlah bonus KaWaka must not be null";
+  public static final String JUMLAH_BONUS_KAWAKA_NOT_NEGATIVE_MESSAGE = "Jumlah bonus KaWaka must not be negative";
+  public static final String PERIOD_NOT_NULL_MESSAGE = "Period must not be null";
+
+  /**
+   * other messages
+   */
+  public static final String OK = "OK";
+  public static final String INVALID_TOKEN = "Invalid token";
+  public static final String LOGOUT_SUCCESS = "Logout success";
+  public static final String SYSCONFIG_TYPE_NAME_ALREADY_EXISTS = "SysconfigType already exists";
+  public static final String SYSCONFIG_TYPE_NOT_FOUND = "SysconfigType not found";
+  public static final String SYSCONFIG_ALREADY_EXISTS = "Sysconfig already exists";
+  public static final String ROLE_NOT_FOUND = "Role not found";
+  public static final String API_PATH_NOT_FOUND = "API path not found";
+  public static final String PERMISSION_NOT_FOUND = "Permission not found";
+  public static final String PERMISSION_ALREADY_EXISTS = "Permission already exists";
+  public static final String INVALID_PERMISSION = "Invalid permission";
+  public static final String DIVISION_NOT_FOUND = "Division not found";
+  public static final String USER_NOT_FOUND = "User not found";
+  public static final String USER_EMAIL_ALREADY_EXISTS = "User with the given email already exists";
+  public static final String USER_AUTH_NOT_IN_ANY_DIVISION = "UserAuth not in any Division";
+  public static final String FACE_NOT_MATCH = "Face not match";
+  public static final String FACE_COULD_NOT_BE_DETECTED = "Face could not be detected";
+  public static final String DIVISION_ALREADY_HAS_PARENT = "Division already has parent";
+  public static final String CHILD_DIVISION_IS_ROOT = "Child division is a root division";
+  public static final String CLOCK_IN_USER_NOT_AVAILABLE = "This clock-in user has already attached to a division";
+  public static final String CORRESPONDING_USER_INFO_NOT_FOUND = "UserInfo for the corresponding user not found";
+  public static final String EMPLOYMENT_STATUS_NOT_FOUND = "Employment status not found";
+  public static final String GENDER_NOT_FOUND = "Gender not found";
+  public static final String RELIGION_NOT_FOUND = "Religion not found";
+  public static final String MARRITAL_STATUS_NOT_FOUND = "Marrital status not found";
+  public static final String BLOOD_TYPE_NOT_FOUND = "Blood type not found";
+  public static final String LAST_EDUCATION_NOT_FOUND = "Last education not found";
+  public static final String USER_REGISTRATION_NOT_FOUND = "User registration not found";
+  public static final String USER_REGISTRATION_ALREADY_EXPIRED = "User registration already expired";
+  public static final String USER_WITH_CORRESPONDING_USER_REGISTRATION_NOT_FOUND = "User with the corresponding user registration not found";
+  public static final String CLOCK_IN_NOT_AVAILABLE = "Clock-in not available at the moment";
+  public static final String NO_CLOCK_OUT_DATA_YESTERDAY = "There is no clock-out data yesterday";
+  public static final String CANNOT_CLOCK_OUT_WITHOUT_CLOCKING_IN_FIRST = "Cannot clock-out without clocking-in first";
+  public static final String WORK_HOUR_HAS_NOT_REACHED_8_HOUR = "Work-hour has not yet reached 8-hour";
+  public static final String DIVISION_USER_AUTH_NOT_FOUND_MESSAGE = "Division User Auth not found";
+  public static final String USER_EMPLOYMENT_NOT_ACTIVE = "User employment status not active";
+  public static final String USER_PAYROLL_NOT_FOUND = "User payroll not found";
+  public static final String OUTLET_CANNOT_BE_ROOT_MESSAGE = "Outlet cannot be root at the same time";
+  public static final String DIVISION_PAYROLL_NOT_FOUND = "Division payroll not found";
+  public static final String PERIOD_NOT_EXISTS = "Period not exists";
+
+}
